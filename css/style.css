@@ -1,0 +1,680 @@
+ /* ........................Defult Css......................... */
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+ *{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif; 
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container::before,
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-25{
+    width: 25%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-75{
+    width: 75%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-33{
+    width: 33.33%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-50{
+    width: 50%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-40{
+    width: 40%;
+    padding:0 15px;
+    float: left;
+}
+
+.col-60{
+    width: 60%;
+    padding:0 15px;
+    float: left;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+}
+
+.catagory-section-top{
+    padding-top: 100px;
+}
+
+.catagory-section-bottom{
+    padding-bottom: 100px;
+}
+
+
+/* -------------------00 Header CSS---------------------- */
+header{
+    background:#85CCC5;
+}
+
+.logo img{
+    height: 85px;
+}
+
+.main-menu {
+    float: right;
+    padding: 20px 0;
+}
+
+.main-menu ul li{
+    list-style:none;
+    float: left;
+    padding: 10px 10px;
+}
+
+.main-menu ul li a{
+    text-decoration:none;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+
+/* -------------------01 Home CSS---------------------- */
+
+.home{
+    background-image: url(../images/h1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-content{
+    padding: 150px 160px;
+}
+
+.home h1{
+    font-size: 80px;
+    color: #85ccc5;
+    line-height: 90px ;
+    font-family: 'Nunito', sans-serif;
+}
+
+.home h6{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif; 
+    color: #555555; 
+    padding: 50px 0px;
+}
+
+.home .btn{
+    display: inline-flex;
+}
+
+.home .btn a{
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    background-color: #fed072;
+    text-decoration: none;
+}
+
+/* -------------------02 Catogory box CSS---------------------- */
+
+.catogory-box{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 15px;
+}
+
+.catogory-box-1{
+    background-image: url(../images/h1-box-1.jpg);
+}
+
+.catogory-box-2{
+    background-image: url(../images/h1-box-2.png);
+}
+
+.catogory-box-3{
+    background-image: url(../images/h1-box-3.jpg);
+}
+
+.catogory-box h3{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 110px 0 10px 0;
+}
+
+.catogory-box p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.col33-p-0 .col-33{
+    padding: 0;
+}
+
+.catagory-all-box{
+    margin-top: -150px;
+}
+
+/* -------------------03 Catogory CSS---------------------- */
+
+.ctg-title h4{
+    font-size: 25px;
+    color: #434343;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.ctg-title img{
+    float: left;
+    padding: 10px 20px;
+}
+
+.catagory-item p{
+    clear: both;
+    color: #888888;
+    font-size: 15px;
+    padding: 0px 20px;
+}
+
+.catagory-item{
+    padding-bottom: 30px;
+}
+
+.catagory-content-all .catagory-section-top{
+    padding-top: 90px;
+}
+
+/* __________learning css__________  */
+
+.learning-section{
+    background-image: url(../images/h1-kids.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.learning-section .col-50{
+    float: right;
+    padding: 90px 40px 5px 70px;
+}
+
+.learning-section .learning-content{
+    background-color: #FDCF71;
+    padding: 20px;
+}
+
+.learning-section .learning-content h3{
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    padding: 40px 35px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+
+.learning-section .learning-content p{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 17px;
+    color: #313131;
+    padding: 20px 35px;
+}
+
+.learning-section .learning-content .learn-btn{
+    padding: 20px 40px;
+}
+
+.learning-section .learning-content .learn-btn a{
+    background-color: white;
+    padding: 20px 60px;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #212121;
+}
+
+.learning-section .learning-content .learn-btn a:hover{
+    background-color: #1a1818;
+    color: white;
+}
+
+/* __________Event css__________  */
+.event-section{
+    padding: 16px 0px 50px 0px;
+}
+.event-section .container{
+    padding: 10px 100px;
+}
+
+.event-section h1{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 55px;
+    color: #434343;
+    text-align: center;
+}
+
+.event-heading >p{
+    font-size: 18px;
+    padding: 15px 100px 60px 100px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+}
+
+.event-show{
+    position: relative;
+    overflow: hidden;
+}
+
+.event-show img{
+    width: 100%; 
+}
+
+.event-show h5{
+    background-color: #fdcf71;
+    padding: 5px 16px;
+    top: 0px;
+    position: absolute;
+    font-size: 20px;
+    width: 65px;
+    text-align: center;
+    color: #fff;
+}
+
+.event-show img{
+    transition: 2s;
+}
+
+.event-show img:hover {
+    transform: scale(1.05);
+}
+
+.event-show a:hover h5 {
+    transform: scale(1.02);
+    background: #212121;
+}
+.event-section  .col-33 >h4{
+    padding: 30px 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #434343;
+    border-bottom:2px solid #e2d9d9;
+    margin-bottom: 20px;
+}
+.event-section .col-33 h4:hover{
+    color:#fdcf71;
+}
+.event-section  .col-33 i{
+    color: #808080;  
+    float: left; 
+    padding-top: 3px; 
+}     
+    
+.event-section  .col-33 >p{
+        padding-left: 25px;
+        font-family:  'Open Sans';
+        font-weight: 500;
+        font-size: 14px;
+}
+
+/* -----------Success Section Css----------- */
+
+.success{
+    background-image: url(../images/h1-birds.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.success .col-50{
+    position: relative;
+}
+.success-show img{
+    width: 100%;
+    padding: 5px 35px;
+    margin-left: 35px;
+}
+
+.success-show a i{
+    padding: 5px 16px;
+    top: 60px;
+    position: absolute;
+    font-size: 100px;
+    color: #fff;
+    left: 230px;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+.success-show a{
+    transition:  all 0.9s ease;
+}
+
+.success-show img:hover{
+    transform: scale(1.02);
+}
+
+.success-content {
+    padding: 5px 30px;
+}
+
+.success-content h2{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    padding: 10px 35px 20px 35px;
+    color: #434343;
+}
+
+.success-content >p{
+    color: #888888;
+    font-size: 24px;
+    padding: 15px 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.success-content span{
+    color: #fdcf71;
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.span-1{
+   float: left;
+   margin-right: 90px;
+   padding:0px 60px;
+}
+
+.span-1 .span-2{
+    color: #888888;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    padding: 15px 35px;
+ }
+
+/* -------Course css------- */
+
+.course .container{
+    padding: 0 80px;
+}
+
+.course-content h1{
+    font-size: 54px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding-top: 55px;
+    color: #434343;
+    text-align: center;
+}
+
+.course-content >p{
+    font-size: 18px;
+    padding: 15px 100px 60px 100px;
+    color: #888888;
+    font-family: 'Open Sans', sans-serif; 
+    text-align: center;
+}
+
+.course-details{
+    border: 1px solid #E1E1E1;
+    position: relative;
+    transition: 0.09s all ease;
+}
+
+.course-details:hover{
+    transform: scale(1.02);
+}
+.course-details img{
+    width: 100%;
+}
+
+.course-details a>h4{
+    font-family: 'Nunito', sans;
+    font-weight: bold;
+    font-size: 26px;
+    color: #434343;
+    float: left;
+    padding: 6px 125px 0px 10px;;
+}
+.course-details a>h4:hover{
+    color: #fdcf71;
+}
+
+.course-details a span{
+    color: #b9b9b9;
+    font-size: 14px;
+}
+.course-details a>p{
+    color: #888888;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 500;
+    padding:0px 50px 0px 13px;
+}
+
+.full-icon {
+    border-top: 1px solid #e1e1e1;
+    margin-top: 16px;
+}
+.user {
+    float: left;
+    padding: 0px 15px;
+}
+
+p.user-1 {
+    padding: 10px 22px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 15px;
+    color: #968896;
+}
+
+.user-2 {
+    padding: 0px 50px;
+}
+
+.course-details a i{
+    padding: 2px 6px;
+}
+.course-details >p {
+    top: 240px;
+    left: 260px;
+    position: absolute;
+    background: #FDCF71;
+    padding: 0px 10px;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    color: #fff;
+}
+/* Admission Css */
+
+.admission {
+    background-image: url(../images/h1-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+.admission-heading h1{
+    font-size: 43px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #434343;
+    text-align: center;
+    padding: 12px 5px;
+}
+.admission-form{
+    padding: 0px 200px;
+}
+
+input{
+    padding: 15px 50px 15px 5px;
+    font-size: 20px;
+    border: none;
+    background: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+input[type="button"] {
+    padding: 15px 60px;
+    font-size: 20px;
+    background: #FDCF71;
+    color: white;
+    margin-left: 30px;
+}
+
+input[type="button"]:hover{
+    background-color: #434343;
+}
+/* -------Foot Css----- */
+.foot{
+    background-color: #f2f1ed;
+}
+.foot .container{
+    padding: 0 90px;
+}
+
+.foot-content h1{
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #313131;
+    padding-bottom: 15px;
+}
+
+.foot-content p{
+    font-size: 15px;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px 30px 20px 0px;
+}
+
+.foot-content ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.foot-content ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #313131;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.by p{
+    padding:0 0 5px 0;
+    font-size: 12px;
+}
+.foot-content i{
+    float: left;
+    padding: 15px 30px 0px 1px;
+}
+
+/* Footer Css */
+.copy-box{
+   
+    font-size: 15px;
+    border-top: 1px solid #9f9e9a; 
+}
+.link{
+    float:right;
+    padding-left: 20px;
+}
+.copyright{
+    padding: 20px 0;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    color: #555555;
+}
+.copyright h5>span{
+    color: #313131;
+}
+
+.social {
+    padding: 20px 0px;
+    
+}
+span.social__link {
+    padding-left: 20px;
+}
+span.follw {
+    padding-left: 25px;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+    
+}
+ span.call{
+    color: #555555;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+    font-size: 12px;
+}
+i.fab.fa-twitter {
+    color: #55ACEF;
+}
+
+i.fab.fa-facebook-f {
+    color: #3B5999;
+}
+span.social__link i {
+    padding: 5px 5px;
+    color: red;
+}
